@@ -45,8 +45,6 @@ public class Main {
         }
 
         ConsoleHelper.printNeuronsWeight(simpleNeuralNetwork.getNeurons(), 3);
-
-        System.out.println();
         for (int i = 0; i < variationsOfFive.size(); i++) {
             for (int j = 0; j < String.valueOf(variationsOfFive.get(i).getValue()).length(); j++) {
                 if (j % 3 == 0) {
