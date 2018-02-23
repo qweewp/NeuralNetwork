@@ -41,7 +41,6 @@ public class Main {
         for (int i = 0; i < 10000000; i++) {
             simpleNeuralNetwork.train(numbers.get(Randomizer.getRandomNumberInRange(0, 9)));
         }
-
         ConsoleHelper.printNeuronsWeight(simpleNeuralNetwork.getNeurons(), 3);
         for (int i = 0; i < variationsOfFive.size(); i++) {
             for (int j = 0; j < String.valueOf(variationsOfFive.get(i).getValue()).length(); j++) {
