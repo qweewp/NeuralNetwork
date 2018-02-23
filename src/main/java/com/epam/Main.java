@@ -26,8 +26,6 @@ public class Main {
             new SimpleEntry<>(0, "111101101101111")
     );
 
-
-
     private static List<SimpleEntry<Integer, String>> variationsOfFive = Arrays.asList(
 
             new SimpleEntry<>(5, "111100111000111"),
