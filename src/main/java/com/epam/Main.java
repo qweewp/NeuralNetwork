@@ -35,8 +35,6 @@ public class Main {
             new SimpleEntry<>(5, "011100111001111"),
             new SimpleEntry<>(5, "011100111001110"),
             new SimpleEntry<>(5, "111100101000111"),
-
-
             new SimpleEntry<>(0, "111101101101111")
     );
 
