@@ -40,8 +40,6 @@ public class Main {
     );
 
     public static void main(String[] args) throws IOException {
-
-
         SimpleNeuralNetwork simpleNeuralNetwork = new SimpleNeuralNetwork(15, 5);
         for (int i = 0; i < 10000000; i++) {
             simpleNeuralNetwork.train(numbers.get(Randomizer.getRandomNumberInRange(0, 9)));
