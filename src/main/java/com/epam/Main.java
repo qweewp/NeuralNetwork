@@ -52,4 +52,6 @@ public class Main {
             System.out.print("\nAttempt #" + i + ": " + simpleNeuralNetwork.proceed(variationsOfFive.get(i)));
         }
     }
+
+
 }
