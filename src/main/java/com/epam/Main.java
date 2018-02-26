@@ -49,8 +49,6 @@ public class Main {
                 }
                 System.out.print("[" + String.valueOf(variationsOfFive.get(i).getValue()).charAt(j) + "]");
             }
-
-
             System.out.print("\nAttempt #" + i + ": " + simpleNeuralNetwork.proceed(variationsOfFive.get(i)));
         }
     }
